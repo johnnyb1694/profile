@@ -1,0 +1,43 @@
+body {
+  font-family: "Prompt", sans-serif;
+  margin: 0;
+  background: linear-gradient(45deg, rgb(37, 37, 37), rgb(51, 51, 51));
+}
+
+header {
+  display: flex;
+  color: rgb(255, 255, 255);
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+}
+
+header ul {
+  width: 600px;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+header nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 6px;
+}
+
+header nav a:hover {
+    background-color: rgba(65, 234, 240, 0.50);
+}
+
+#names {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.chinese {
+  color: rgb(65, 234, 240);
+}
