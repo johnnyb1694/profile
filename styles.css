@@ -59,7 +59,8 @@ header nav a:hover {
 
 #overview img {
   height: 350px;
-  border-radius: 10px;
+  box-shadow: 4px 5px 5px rgb(37, 37, 37);
+  border-radius: 50%;
   object-fit: cover;
   margin: 0 auto;
   display: block;
