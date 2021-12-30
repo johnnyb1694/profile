@@ -18,6 +18,10 @@ header {
   padding: 15px 30px;
 }
 
+a {
+  transition: all 0.25s ease-in-out;
+}
+
 header ul {
   width: 400px;
   display: flex;
@@ -44,7 +48,7 @@ header nav a:hover {
 }
 
 #overview {
-  width: 800px;
+  width: 900px;
   margin: 20px auto;
 }
 
@@ -54,8 +58,8 @@ header nav a:hover {
 }
 
 #overview img {
-  height: 400px;
-  border-radius: 20px;
+  height: 350px;
+  border-radius: 10px;
   object-fit: cover;
   margin: 0 auto;
   display: block;
@@ -70,6 +74,10 @@ header nav a:hover {
   margin-left: 50px;
 }
 
+#overview-content li {
+  margin: 10px 0;
+}
+
 #overview-content ul li::before {
   content: "\221E"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: rgb(65, 234, 240); /* Change the color */
@@ -81,4 +89,16 @@ header nav a:hover {
 
 .chinese {
   color: rgb(65, 234, 240);
+}
+
+.useful-link {
+  text-decoration: none solid 0.2em;
+  text-underline-offset: 2px;
+  border-radius: 2px;
+  padding: 2px;
+  color: rgb(205, 164, 252);
+}
+
+.useful-link:hover {
+  background-color: rgb(205, 164, 252, 0.5);
 }
