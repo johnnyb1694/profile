@@ -18,6 +18,12 @@ header {
   padding: 15px 30px;
 }
 
+h2 {
+  text-align: center;
+  color: rgb(65, 234, 240);
+  font-size: 30px;
+}
+
 a {
   transition: all 0.25s ease-in-out;
 }
@@ -49,12 +55,7 @@ header nav a:hover {
 
 #overview {
   width: 900px;
-  margin: 20px auto;
-}
-
-#overview h2 {
-  text-align: center;
-  color: rgb(65, 234, 240);
+  margin: 100px auto 0 auto;
 }
 
 #overview img {
@@ -88,6 +89,17 @@ header nav a:hover {
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
+#projects {
+  margin: 80px auto 0 auto;
+  width: 1300px;
+}
+
+#project-panes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+}
+
 .chinese {
   color: rgb(65, 234, 240);
 }
@@ -102,4 +114,15 @@ header nav a:hover {
 
 .useful-link:hover {
   background-color: rgb(205, 164, 252, 0.5);
+  color: white;
+}
+
+.project-pane img {
+  width: 600px;
+  border-radius: 30px;
+  object-fit: contain;
+}
+
+.project-pane h3 {
+  color: rgb(65, 234, 240);
 }
