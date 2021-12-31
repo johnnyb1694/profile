@@ -35,6 +35,11 @@ header ul {
   justify-content: space-evenly;
 }
 
+header nav {
+  position: fixed;
+  right: 30px;
+}
+
 header nav a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -90,12 +95,8 @@ header nav a:hover {
 }
 
 #projects {
-  margin: 0 auto 0 auto;
-  width: 1300px;
-}
-
-#projects {
   margin: 200px auto;
+  width: 1300px;
   text-align: center;
 }
 
@@ -103,7 +104,7 @@ header nav a:hover {
   width: 70%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px 50px;
+  gap: 20px 70px;
   margin: 50px auto;
 }
 
